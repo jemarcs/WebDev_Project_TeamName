@@ -1,13 +1,19 @@
+
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="style.css">
- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Snow Trails Agency 🏔️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us - Snow Trails Agency 🏔️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+          rel="stylesheet">
 
     <style>
         header {
@@ -22,61 +28,75 @@
             width: 60%;
             margin: 20px auto;
         }
+
+        @media (max-width: 600px) {
+            .intro {
+                width: 90%;
+            }
+
+            .image-container img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
     </style>
 </head>
 
 <body>
 
+    <!-- Navigation bar -->
+    
+<nav class="navbar">
+    <a href="index.html" class="logo">Snow Trails Agency</a>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+</nav>
+
+
+    <!-- About page heading -->
     <header>
-        <h1>Snow Trails Agency</h1>
+        <h1>About Us</h1>
     </header>
 
     <article>
 
+        <!-- Agency image -->
         <div class="image-container">
-            <img 
+            <img
                 src="https://hips.hearstapps.com/hmg-prod/images/snow-holidays-64667c0d183db.jpg?crop=1xw:0.9995285242809995xh;center,top"
                 width="500"
                 height="300"
                 alt="Snowy mountain landscape"
             >
+
             <p>Photo by Joe Blyth</p>
         </div>
 
+        <!-- About the agency -->
         <section class="intro">
             <p style="text-align: center;">
-                Welcome to Snow Trails Agency, your gateway to unforgettable winter
-                adventures! Whether you're looking for thrilling ski slopes, cosy
-                mountain getaways, or breathtaking snowy landscapes, we're here to
-                help you plan the perfect snow-filled escape. Discover charming
-                mountain villages, peaceful snowy trails, and stunning winter scenery
-                that will make your trip truly memorable. Our goal is to help you find
-                exciting experiences that suit your interests, whether you're
-                travelling with family, friends, or on your own. From relaxing
-                retreats to action-packed adventures, Snow Trails Agency has
-                something for every winter traveller.
+                Snow Trails Agency began with Founder Lucas Snow's simple
+                passion for exploring the beauty of winter. Founded alongside
+                his group of friends who loved skiing, snowy landscapes, and
+                mountain adventures, we wanted to help others experience the
+                magic of the snow.
+
+                What started as weekend trips to the mountains grew into a
+                travel agency dedicated to creating unforgettable winter
+                holidays.
+
+                Today, Snow Trails Agency helps travellers discover amazing
+                snowy destinations, from peaceful mountain escapes to exciting
+                ski adventures, while making every journey easy, enjoyable,
+                and memorable.
             </p>
         </section>
 
     </article>
-
-    <header> 
-        <h1> About us</h1>
-    </header>
-
-    <body> 
-        <article>
-            <section class="intro">
-
-            <p style="text-align: center;">
-             Snow Trails Agency began with Founder Lucas Snow's simple passion for exploring the beauty of winter. 
-             Founded alongside his group of friends who loved skiing, snowy landscapes, and mountain adventures, 
-             we wanted to help others experience the magic of the snow. 
-             What started as weekend trips to the mountains grew into a travel agency dedicated to creating unforgettable winter holidays. 
-             Today, Snow Trails Agency helps travellers discover amazing snowy destinations, 
-             from peaceful mountain escapes to exciting ski adventures, 
-             while making every journey easy, enjoyable, and memorable.
-        </article>
-    </body>
+    
 </body>
 </html>

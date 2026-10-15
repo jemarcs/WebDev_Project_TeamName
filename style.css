@@ -1,7 +1,7 @@
 .intro {
     background-color: lightgrey;
     padding: 15px;
-   font-family: "Karla", sans-serif;
+   font-family: "https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet";
 }
 
 
@@ -21,7 +21,149 @@ h1 {
 ul{
     background-color: lightgrey;
     padding: 15px;
-    font-family: "Karla", sans-serif;
+    font-family: "https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet";
 }
 
+
+body {
+    margin: 0;
+    font-family: "https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet";
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #163d63;
+    padding: 18px 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #adddf5;
+    text-decoration: underline;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+.images img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+header {
+    padding: 0 5px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+}
+
+
+.images img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+ 
+
+.navbar {
+    background-color: #163d63;
+    padding: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.nav-links a:hover {
+    color: #87ceeb;
+    text-decoration: underline;
+}
+
+.images img {
+    border-radius: 10px;
+}
+
+h1 {
+    color: #163d63;
+}
+
+
+.images img {
+    width: 500px;
+    height: 300px;
+
+    padding: 5px;
+    margin: 15px;
+
+    border: 3px solid #163d63;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.gallery-page {
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.78),
+            rgba(255, 255, 255, 0.78)
+        ),
+        url("https://wallpaper.forfun.com/fetch/8f/8f2d23328e5d3e821387aac6f6a2e583.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #eaf2f8;
+}
+
+.gallery {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+}
+
+.gallery-heading {
+    color: #163d63;
+    text-shadow: 0 1px 2px white;
+}
 
